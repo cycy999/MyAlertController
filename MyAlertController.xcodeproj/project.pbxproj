@@ -14,6 +14,7 @@
 		B688B867206646AF0003A2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B688B865206646AF0003A2BE /* LaunchScreen.storyboard */; };
 		B688B872206646AF0003A2BE /* MyAlertControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B688B871206646AF0003A2BE /* MyAlertControllerTests.swift */; };
 		B688B87D206646AF0003A2BE /* MyAlertControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B688B87C206646AF0003A2BE /* MyAlertControllerUITests.swift */; };
+		B688B88E20664C050003A2BE /* MyAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B688B88D20664C050003A2BE /* MyAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B688B878206646AF0003A2BE /* MyAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B688B87C206646AF0003A2BE /* MyAlertControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertControllerUITests.swift; sourceTree = "<group>"; };
 		B688B87E206646AF0003A2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B688B88D20664C050003A2BE /* MyAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,8 @@
 			children = (
 				B688B85C206646AF0003A2BE /* AppDelegate.swift */,
 				B688B85E206646AF0003A2BE /* ViewController.swift */,
-				B688B860206646AF0003A2BE /* Main.storyboard */,
-				B688B863206646AF0003A2BE /* Assets.xcassets */,
-				B688B865206646AF0003A2BE /* LaunchScreen.storyboard */,
-				B688B868206646AF0003A2BE /* Info.plist */,
+				B688B88D20664C050003A2BE /* MyAlertView.swift */,
+				B688B88A206646B90003A2BE /* New Group */,
 			);
 			path = MyAlertController;
 			sourceTree = "<group>";
@@ -123,6 +123,17 @@
 				B688B87E206646AF0003A2BE /* Info.plist */,
 			);
 			path = MyAlertControllerUITests;
+			sourceTree = "<group>";
+		};
+		B688B88A206646B90003A2BE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				B688B860206646AF0003A2BE /* Main.storyboard */,
+				B688B863206646AF0003A2BE /* Assets.xcassets */,
+				B688B865206646AF0003A2BE /* LaunchScreen.storyboard */,
+				B688B868206646AF0003A2BE /* Info.plist */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B688B85F206646AF0003A2BE /* ViewController.swift in Sources */,
+				B688B88E20664C050003A2BE /* MyAlertView.swift in Sources */,
 				B688B85D206646AF0003A2BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
